@@ -74,6 +74,20 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    ZXSectionModel *sectionModel = self.listDatas[indexPath.section];
+    ZXRowModel *rowModel = sectionModel.subTitles[indexPath.row];
+    
+    Class vcClass = NSClassFromString(rowModel.vcName);
+    UIViewController *vc = (UIViewController *)[[vcClass alloc] init];
+    vc.title = rowModel.title;
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    
+}
+
 #pragma mark Getter
 - (NSMutableArray *)listDatas {
     if (!_listDatas) {

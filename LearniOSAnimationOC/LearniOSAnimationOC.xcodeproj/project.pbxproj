@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		26C8424023235CF600D31569 /* ListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 26C8423F23235CF600D31569 /* ListData.json */; };
 		26C842432324895200D31569 /* ZXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842422324895200D31569 /* ZXSectionModel.m */; };
 		26C842462324896000D31569 /* ZXRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842452324896000D31569 /* ZXRowModel.m */; };
+		26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8424B23249E8B00D31569 /* ZXAnimatedCircleViewController.m */; };
+		26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8424E2324A4AC00D31569 /* ZXAnimatedCircleView.m */; };
+		26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */; };
 		B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,12 @@
 		26C842422324895200D31569 /* ZXSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSectionModel.m; sourceTree = "<group>"; };
 		26C842442324896000D31569 /* ZXRowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRowModel.h; sourceTree = "<group>"; };
 		26C842452324896000D31569 /* ZXRowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXRowModel.m; sourceTree = "<group>"; };
+		26C8424A23249E8B00D31569 /* ZXAnimatedCircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAnimatedCircleViewController.h; sourceTree = "<group>"; };
+		26C8424B23249E8B00D31569 /* ZXAnimatedCircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedCircleViewController.m; sourceTree = "<group>"; };
+		26C8424D2324A4AC00D31569 /* ZXAnimatedCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAnimatedCircleView.h; sourceTree = "<group>"; };
+		26C8424E2324A4AC00D31569 /* ZXAnimatedCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedCircleView.m; sourceTree = "<group>"; };
+		26C842502324A5F900D31569 /* ZXAnimatedCircleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAnimatedCircleLayer.h; sourceTree = "<group>"; };
+		26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedCircleLayer.m; sourceTree = "<group>"; };
 		AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.release.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.release.xcconfig"; sourceTree = "<group>"; };
 		B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.debug.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOSAnimationOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +123,7 @@
 			children = (
 				26C8423723235B4C00D31569 /* ZXHomeViewController.h */,
 				26C8423823235B4C00D31569 /* ZXHomeViewController.m */,
+				26C8424823249E0700D31569 /* SubModules */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -136,13 +146,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		26C8424823249E0700D31569 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				26C8424923249E2E00D31569 /* AnimatedCircle */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		26C8424923249E2E00D31569 /* AnimatedCircle */ = {
+			isa = PBXGroup;
+			children = (
+				26C8424A23249E8B00D31569 /* ZXAnimatedCircleViewController.h */,
+				26C8424B23249E8B00D31569 /* ZXAnimatedCircleViewController.m */,
+				26C8424D2324A4AC00D31569 /* ZXAnimatedCircleView.h */,
+				26C8424E2324A4AC00D31569 /* ZXAnimatedCircleView.m */,
+				26C842502324A5F900D31569 /* ZXAnimatedCircleLayer.h */,
+				26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */,
+			);
+			name = AnimatedCircle;
+			sourceTree = "<group>";
+		};
 		83F2E814426069A3E6FC24F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */,
 				AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -265,6 +295,9 @@
 				26C842462324896000D31569 /* ZXRowModel.m in Sources */,
 				26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */,
 				260A4D88232356E5003FC64F /* AppDelegate.m in Sources */,
+				26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */,
+				26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */,
+				26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */,
 				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

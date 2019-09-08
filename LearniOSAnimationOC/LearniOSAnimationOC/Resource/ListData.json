@@ -3,16 +3,20 @@
         "title" : "贝塞尔曲线",
         "subTitles" : [
             {
-                "title" : "KYAnimatedPageControl"
+                "title" : "KYAnimatedPageControl",
+                "vcName": "ZXAnimatedCircleViewController"
             },
             {
-                "title" : "GooeySlideMenu"
+                "title" : "GooeySlideMenu",
+                "vcName": "UIViewController"
             },
             {
-                "title" : "QQ 未读消息气泡"
+                "title" : "QQ 未读消息气泡",
+                "vcName": "UIViewController"
             },
             {
-                "title" : "LiquidLoader"
+                "title" : "LiquidLoader",
+                "vcName": "UIViewController"
             }
         ]
     }

@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** title */
 @property (nonatomic, copy) NSString *title;
 
+/** VCName */
+@property (nonatomic, copy) NSString *vcName;
+
 @end
 
 NS_ASSUME_NONNULL_END
