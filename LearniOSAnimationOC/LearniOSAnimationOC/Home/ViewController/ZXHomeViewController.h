@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXHomeViewController.h
 //  LearniOSAnimationOC
 //
 //  Created by windorz on 2019/9/7.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ZXHomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

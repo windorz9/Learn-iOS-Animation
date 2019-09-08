@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		260A4D88232356E5003FC64F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260A4D87232356E5003FC64F /* AppDelegate.m */; };
-		260A4D8B232356E5003FC64F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260A4D8A232356E5003FC64F /* ViewController.m */; };
-		260A4D8E232356E5003FC64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260A4D8C232356E5003FC64F /* Main.storyboard */; };
 		260A4D90232356E6003FC64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260A4D8F232356E6003FC64F /* Assets.xcassets */; };
 		260A4D93232356E6003FC64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260A4D91232356E6003FC64F /* LaunchScreen.storyboard */; };
 		260A4D96232356E6003FC64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260A4D95232356E6003FC64F /* main.m */; };
+		26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8423823235B4C00D31569 /* ZXHomeViewController.m */; };
+		26C8424023235CF600D31569 /* ListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 26C8423F23235CF600D31569 /* ListData.json */; };
+		26C842432324895200D31569 /* ZXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842422324895200D31569 /* ZXSectionModel.m */; };
+		26C842462324896000D31569 /* ZXRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842452324896000D31569 /* ZXRowModel.m */; };
+		B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		260A4D83232356E5003FC64F /* LearniOSAnimationOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearniOSAnimationOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		260A4D86232356E5003FC64F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		260A4D87232356E5003FC64F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		260A4D89232356E5003FC64F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		260A4D8A232356E5003FC64F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		260A4D8D232356E5003FC64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		260A4D8F232356E6003FC64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		260A4D92232356E6003FC64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260A4D94232356E6003FC64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		260A4D95232356E6003FC64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26C8423723235B4C00D31569 /* ZXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXHomeViewController.h; sourceTree = "<group>"; };
+		26C8423823235B4C00D31569 /* ZXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXHomeViewController.m; sourceTree = "<group>"; };
+		26C8423F23235CF600D31569 /* ListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListData.json; sourceTree = "<group>"; };
+		26C842412324895200D31569 /* ZXSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXSectionModel.h; sourceTree = "<group>"; };
+		26C842422324895200D31569 /* ZXSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSectionModel.m; sourceTree = "<group>"; };
+		26C842442324896000D31569 /* ZXRowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRowModel.h; sourceTree = "<group>"; };
+		26C842452324896000D31569 /* ZXRowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXRowModel.m; sourceTree = "<group>"; };
+		AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.release.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.release.xcconfig"; sourceTree = "<group>"; };
+		B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.debug.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.debug.xcconfig"; sourceTree = "<group>"; };
+		C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOSAnimationOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0573B0A15092B495D3AA28D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		260A4D7A232356E5003FC64F = {
 			isa = PBXGroup;
 			children = (
 				260A4D85232356E5003FC64F /* LearniOSAnimationOC */,
 				260A4D84232356E5003FC64F /* Products */,
+				83F2E814426069A3E6FC24F1 /* Pods */,
+				0573B0A15092B495D3AA28D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +81,69 @@
 			children = (
 				260A4D86232356E5003FC64F /* AppDelegate.h */,
 				260A4D87232356E5003FC64F /* AppDelegate.m */,
-				260A4D89232356E5003FC64F /* ViewController.h */,
-				260A4D8A232356E5003FC64F /* ViewController.m */,
-				260A4D8C232356E5003FC64F /* Main.storyboard */,
+				26C8423A23235C8100D31569 /* Home */,
+				26C8423B23235C9300D31569 /* Resource */,
 				260A4D8F232356E6003FC64F /* Assets.xcassets */,
 				260A4D91232356E6003FC64F /* LaunchScreen.storyboard */,
 				260A4D94232356E6003FC64F /* Info.plist */,
 				260A4D95232356E6003FC64F /* main.m */,
 			);
 			path = LearniOSAnimationOC;
+			sourceTree = "<group>";
+		};
+		26C8423A23235C8100D31569 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				26C8423E23235CCA00D31569 /* View */,
+				26C8423D23235CC500D31569 /* Model */,
+				26C8423C23235CBA00D31569 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		26C8423B23235C9300D31569 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				26C8423F23235CF600D31569 /* ListData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		26C8423C23235CBA00D31569 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26C8423723235B4C00D31569 /* ZXHomeViewController.h */,
+				26C8423823235B4C00D31569 /* ZXHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		26C8423D23235CC500D31569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26C842412324895200D31569 /* ZXSectionModel.h */,
+				26C842422324895200D31569 /* ZXSectionModel.m */,
+				26C842442324896000D31569 /* ZXRowModel.h */,
+				26C842452324896000D31569 /* ZXRowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26C8423E23235CCA00D31569 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83F2E814426069A3E6FC24F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */,
+				AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 260A4D99232356E6003FC64F /* Build configuration list for PBXNativeTarget "LearniOSAnimationOC" */;
 			buildPhases = (
+				CC35AE021896DBF451BEF446 /* [CP] Check Pods Manifest.lock */,
 				260A4D7F232356E5003FC64F /* Sources */,
 				260A4D80232356E5003FC64F /* Frameworks */,
 				260A4D81232356E5003FC64F /* Resources */,
+				3ED522EC74BCB6C1B2ECF12E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +174,7 @@
 		260A4D7B232356E5003FC64F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZX;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Q;
 				TargetAttributes = {
@@ -130,34 +208,70 @@
 			files = (
 				260A4D93232356E6003FC64F /* LaunchScreen.storyboard in Resources */,
 				260A4D90232356E6003FC64F /* Assets.xcassets in Resources */,
-				260A4D8E232356E5003FC64F /* Main.storyboard in Resources */,
+				26C8424023235CF600D31569 /* ListData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ED522EC74BCB6C1B2ECF12E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC35AE021896DBF451BEF446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearniOSAnimationOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		260A4D7F232356E5003FC64F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260A4D8B232356E5003FC64F /* ViewController.m in Sources */,
 				260A4D96232356E6003FC64F /* main.m in Sources */,
+				26C842462324896000D31569 /* ZXRowModel.m in Sources */,
+				26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */,
 				260A4D88232356E5003FC64F /* AppDelegate.m in Sources */,
+				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		260A4D8C232356E5003FC64F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				260A4D8D232356E5003FC64F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		260A4D91232356E6003FC64F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +397,7 @@
 		};
 		260A4D9A232356E6003FC64F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +416,7 @@
 		};
 		260A4D9B232356E6003FC64F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

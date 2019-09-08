@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZXHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    ZXHomeViewController *homeVC = [[ZXHomeViewController alloc] init];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    navigationController.navigationBar.translucent = NO;
+    [navigationController.navigationBar setBarTintColor:[UIColor whiteColor]];
+    
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
