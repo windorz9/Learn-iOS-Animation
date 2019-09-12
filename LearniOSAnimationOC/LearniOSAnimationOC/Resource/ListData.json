@@ -8,7 +8,7 @@
             },
             {
                 "title" : "GooeySlideMenu",
-                "vcName": "UIViewController"
+                "vcName": "ZXGooeySlideMenuViewController"
             },
             {
                 "title" : "QQ 未读消息气泡",

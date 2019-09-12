@@ -18,6 +18,8 @@
 		26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8424B23249E8B00D31569 /* ZXAnimatedCircleViewController.m */; };
 		26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8424E2324A4AC00D31569 /* ZXAnimatedCircleView.m */; };
 		26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */; };
+		26C842562325F42400D31569 /* ZXGooeySlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842552325F42400D31569 /* ZXGooeySlideMenuViewController.m */; };
+		26C842592325FC7200D31569 /* ZXGooeySlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842582325FC7200D31569 /* ZXGooeySlideMenuView.m */; };
 		B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,10 @@
 		26C8424E2324A4AC00D31569 /* ZXAnimatedCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedCircleView.m; sourceTree = "<group>"; };
 		26C842502324A5F900D31569 /* ZXAnimatedCircleLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAnimatedCircleLayer.h; sourceTree = "<group>"; };
 		26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAnimatedCircleLayer.m; sourceTree = "<group>"; };
+		26C842542325F42400D31569 /* ZXGooeySlideMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXGooeySlideMenuViewController.h; sourceTree = "<group>"; };
+		26C842552325F42400D31569 /* ZXGooeySlideMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXGooeySlideMenuViewController.m; sourceTree = "<group>"; };
+		26C842572325FC7200D31569 /* ZXGooeySlideMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXGooeySlideMenuView.h; sourceTree = "<group>"; };
+		26C842582325FC7200D31569 /* ZXGooeySlideMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXGooeySlideMenuView.m; sourceTree = "<group>"; };
 		AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.release.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.release.xcconfig"; sourceTree = "<group>"; };
 		B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.debug.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOSAnimationOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,7 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				26C842532325F3F900D31569 /* GooeySlideMenu */,
 				26C8424923249E2E00D31569 /* AnimatedCircle */,
 			);
 			path = SubModules;
@@ -165,6 +172,17 @@
 				26C842512324A5F900D31569 /* ZXAnimatedCircleLayer.m */,
 			);
 			name = AnimatedCircle;
+			sourceTree = "<group>";
+		};
+		26C842532325F3F900D31569 /* GooeySlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				26C842542325F42400D31569 /* ZXGooeySlideMenuViewController.h */,
+				26C842552325F42400D31569 /* ZXGooeySlideMenuViewController.m */,
+				26C842572325FC7200D31569 /* ZXGooeySlideMenuView.h */,
+				26C842582325FC7200D31569 /* ZXGooeySlideMenuView.m */,
+			);
+			name = GooeySlideMenu;
 			sourceTree = "<group>";
 		};
 		83F2E814426069A3E6FC24F1 /* Pods */ = {
@@ -294,8 +312,10 @@
 				260A4D96232356E6003FC64F /* main.m in Sources */,
 				26C842462324896000D31569 /* ZXRowModel.m in Sources */,
 				26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */,
+				26C842592325FC7200D31569 /* ZXGooeySlideMenuView.m in Sources */,
 				260A4D88232356E5003FC64F /* AppDelegate.m in Sources */,
 				26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */,
+				26C842562325F42400D31569 /* ZXGooeySlideMenuViewController.m in Sources */,
 				26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */,
 				26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */,
 				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
