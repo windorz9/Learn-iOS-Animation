@@ -12,7 +12,7 @@
             },
             {
                 "title" : "QQ 未读消息气泡",
-                "vcName": "UIViewController"
+                "vcName": "ZXQQMessageBubbleViewController"
             },
             {
                 "title" : "LiquidLoader",
