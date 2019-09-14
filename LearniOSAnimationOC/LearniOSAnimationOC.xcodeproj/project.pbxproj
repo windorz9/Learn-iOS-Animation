@@ -22,6 +22,12 @@
 		26C842592325FC7200D31569 /* ZXGooeySlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842582325FC7200D31569 /* ZXGooeySlideMenuView.m */; };
 		26C8425D2329EECA00D31569 /* ZXQQMessageBubbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8425C2329EECA00D31569 /* ZXQQMessageBubbleViewController.m */; };
 		26C84260232A1E6D00D31569 /* ZXQQMessageBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8425F232A1E6D00D31569 /* ZXQQMessageBubbleView.m */; };
+		26C8427F232D07EB00D31569 /* ZXMainTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8427E232D07EB00D31569 /* ZXMainTransitionViewController.m */; };
+		26C84282232D080100D31569 /* ZXSecondTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C84281232D080100D31569 /* ZXSecondTransitionViewController.m */; };
+		26C84286232D084F00D31569 /* ZXPingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C84285232D084F00D31569 /* ZXPingTransition.m */; };
+		26C8428C232D0E4E00D31569 /* page_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C8428B232D0E4E00D31569 /* page_1.png */; };
+		26C8428E232D0E5700D31569 /* page_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C8428D232D0E5700D31569 /* page_2.png */; };
+		26C84291232D225600D31569 /* ZXPingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C84290232D225600D31569 /* ZXPingInvertTransition.m */; };
 		B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +60,16 @@
 		26C8425C2329EECA00D31569 /* ZXQQMessageBubbleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXQQMessageBubbleViewController.m; sourceTree = "<group>"; };
 		26C8425E232A1E6D00D31569 /* ZXQQMessageBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXQQMessageBubbleView.h; sourceTree = "<group>"; };
 		26C8425F232A1E6D00D31569 /* ZXQQMessageBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXQQMessageBubbleView.m; sourceTree = "<group>"; };
+		26C8427D232D07EB00D31569 /* ZXMainTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMainTransitionViewController.h; sourceTree = "<group>"; };
+		26C8427E232D07EB00D31569 /* ZXMainTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMainTransitionViewController.m; sourceTree = "<group>"; };
+		26C84280232D080100D31569 /* ZXSecondTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXSecondTransitionViewController.h; sourceTree = "<group>"; };
+		26C84281232D080100D31569 /* ZXSecondTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSecondTransitionViewController.m; sourceTree = "<group>"; };
+		26C84284232D084F00D31569 /* ZXPingTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPingTransition.h; sourceTree = "<group>"; };
+		26C84285232D084F00D31569 /* ZXPingTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPingTransition.m; sourceTree = "<group>"; };
+		26C8428B232D0E4E00D31569 /* page_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_1.png; sourceTree = "<group>"; };
+		26C8428D232D0E5700D31569 /* page_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_2.png; sourceTree = "<group>"; };
+		26C8428F232D225600D31569 /* ZXPingInvertTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPingInvertTransition.h; sourceTree = "<group>"; };
+		26C84290232D225600D31569 /* ZXPingInvertTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPingInvertTransition.m; sourceTree = "<group>"; };
 		AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.release.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.release.xcconfig"; sourceTree = "<group>"; };
 		B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.debug.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOSAnimationOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +177,7 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				26C8427C232D07B000D31569 /* CustomTransition */,
 				26C84278232C71CE00D31569 /* TwitterLaunchAnimation */,
 				26C8425A2329EE7800D31569 /* QQMessageBubble */,
 				26C842532325F3F900D31569 /* GooeySlideMenu */,
@@ -209,6 +226,31 @@
 			children = (
 			);
 			name = TwitterLaunchAnimation;
+			sourceTree = "<group>";
+		};
+		26C8427C232D07B000D31569 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				26C8428B232D0E4E00D31569 /* page_1.png */,
+				26C8428D232D0E5700D31569 /* page_2.png */,
+				26C84283232D082B00D31569 /* CustomTransition */,
+				26C8427D232D07EB00D31569 /* ZXMainTransitionViewController.h */,
+				26C8427E232D07EB00D31569 /* ZXMainTransitionViewController.m */,
+				26C84280232D080100D31569 /* ZXSecondTransitionViewController.h */,
+				26C84281232D080100D31569 /* ZXSecondTransitionViewController.m */,
+			);
+			name = CustomTransition;
+			sourceTree = "<group>";
+		};
+		26C84283232D082B00D31569 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				26C84284232D084F00D31569 /* ZXPingTransition.h */,
+				26C84285232D084F00D31569 /* ZXPingTransition.m */,
+				26C8428F232D225600D31569 /* ZXPingInvertTransition.h */,
+				26C84290232D225600D31569 /* ZXPingInvertTransition.m */,
+			);
+			name = CustomTransition;
 			sourceTree = "<group>";
 		};
 		83F2E814426069A3E6FC24F1 /* Pods */ = {
@@ -280,7 +322,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C8428C232D0E4E00D31569 /* page_1.png in Resources */,
 				260A4D93232356E6003FC64F /* LaunchScreen.storyboard in Resources */,
+				26C8428E232D0E5700D31569 /* page_2.png in Resources */,
 				260A4D90232356E6003FC64F /* Assets.xcassets in Resources */,
 				26C8424023235CF600D31569 /* ListData.json in Resources */,
 			);
@@ -335,16 +379,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C84286232D084F00D31569 /* ZXPingTransition.m in Sources */,
 				260A4D96232356E6003FC64F /* main.m in Sources */,
 				26C8425D2329EECA00D31569 /* ZXQQMessageBubbleViewController.m in Sources */,
 				26C84260232A1E6D00D31569 /* ZXQQMessageBubbleView.m in Sources */,
 				26C842462324896000D31569 /* ZXRowModel.m in Sources */,
 				26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */,
+				26C84291232D225600D31569 /* ZXPingInvertTransition.m in Sources */,
 				26C842592325FC7200D31569 /* ZXGooeySlideMenuView.m in Sources */,
 				260A4D88232356E5003FC64F /* AppDelegate.m in Sources */,
 				26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */,
 				26C842562325F42400D31569 /* ZXGooeySlideMenuViewController.m in Sources */,
+				26C84282232D080100D31569 /* ZXSecondTransitionViewController.m in Sources */,
 				26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */,
+				26C8427F232D07EB00D31569 /* ZXMainTransitionViewController.m in Sources */,
 				26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */,
 				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
 			);

@@ -22,6 +22,10 @@
             {
                 "title" : "Twitter 启动动画",
                 "vcName": ""
+            },
+            {
+                "title" : "转场动画",
+                "vcName": "ZXMainTransitionViewController"
             }
         ]
     }
