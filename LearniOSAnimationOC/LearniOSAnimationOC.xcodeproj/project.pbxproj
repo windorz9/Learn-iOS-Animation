@@ -161,6 +161,7 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				26C84278232C71CE00D31569 /* TwitterLaunchAnimation */,
 				26C8425A2329EE7800D31569 /* QQMessageBubble */,
 				26C842532325F3F900D31569 /* GooeySlideMenu */,
 				26C8424923249E2E00D31569 /* AnimatedCircle */,
@@ -201,6 +202,13 @@
 				26C8425F232A1E6D00D31569 /* ZXQQMessageBubbleView.m */,
 			);
 			name = QQMessageBubble;
+			sourceTree = "<group>";
+		};
+		26C84278232C71CE00D31569 /* TwitterLaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TwitterLaunchAnimation;
 			sourceTree = "<group>";
 		};
 		83F2E814426069A3E6FC24F1 /* Pods */ = {

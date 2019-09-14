@@ -79,6 +79,9 @@
     ZXSectionModel *sectionModel = self.listDatas[indexPath.section];
     ZXRowModel *rowModel = sectionModel.subTitles[indexPath.row];
     
+    if ([rowModel.vcName isEqualToString:@""]) {
+        return;
+    }
     Class vcClass = NSClassFromString(rowModel.vcName);
     UIViewController *vc = (UIViewController *)[[vcClass alloc] init];
     vc.title = rowModel.title;

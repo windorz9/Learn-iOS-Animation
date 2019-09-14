@@ -13,10 +13,15 @@
             {
                 "title" : "QQ 未读消息气泡",
                 "vcName": "ZXQQMessageBubbleViewController"
-            },
+            }
+        ]
+    },
+    {
+        "title" : "Core Animation",
+        "subTitles" : [
             {
-                "title" : "LiquidLoader",
-                "vcName": "UIViewController"
+                "title" : "Twitter 启动动画",
+                "vcName": ""
             }
         ]
     }
