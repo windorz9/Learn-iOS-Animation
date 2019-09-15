@@ -26,6 +26,10 @@
             {
                 "title" : "转场动画",
                 "vcName": "ZXMainTransitionViewController"
+            },
+            {
+                "title" : "JumpStart",
+                "vcName": "ZXJumpStartViewController"
             }
         ]
     }

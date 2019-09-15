@@ -28,6 +28,8 @@
 		26C8428C232D0E4E00D31569 /* page_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C8428B232D0E4E00D31569 /* page_1.png */; };
 		26C8428E232D0E5700D31569 /* page_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C8428D232D0E5700D31569 /* page_2.png */; };
 		26C84291232D225600D31569 /* ZXPingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C84290232D225600D31569 /* ZXPingInvertTransition.m */; };
+		26C84298232DCD2D00D31569 /* ZXJumpStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C84297232DCD2D00D31569 /* ZXJumpStartViewController.m */; };
+		26C8429B232DCE3800D31569 /* ZXJumpStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8429A232DCE3700D31569 /* ZXJumpStartView.m */; };
 		B63FF371807B91E23C509001 /* Pods_LearniOSAnimationOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,10 @@
 		26C8428D232D0E5700D31569 /* page_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page_2.png; sourceTree = "<group>"; };
 		26C8428F232D225600D31569 /* ZXPingInvertTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPingInvertTransition.h; sourceTree = "<group>"; };
 		26C84290232D225600D31569 /* ZXPingInvertTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPingInvertTransition.m; sourceTree = "<group>"; };
+		26C84296232DCD2D00D31569 /* ZXJumpStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXJumpStartViewController.h; sourceTree = "<group>"; };
+		26C84297232DCD2D00D31569 /* ZXJumpStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJumpStartViewController.m; sourceTree = "<group>"; };
+		26C84299232DCE3700D31569 /* ZXJumpStartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXJumpStartView.h; sourceTree = "<group>"; };
+		26C8429A232DCE3700D31569 /* ZXJumpStartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJumpStartView.m; sourceTree = "<group>"; };
 		AB4BDE5D2D9E6A40EA321DAA /* Pods-LearniOSAnimationOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.release.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.release.xcconfig"; sourceTree = "<group>"; };
 		B4A3DE315507015FCEE03D61 /* Pods-LearniOSAnimationOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearniOSAnimationOC.debug.xcconfig"; path = "Target Support Files/Pods-LearniOSAnimationOC/Pods-LearniOSAnimationOC.debug.xcconfig"; sourceTree = "<group>"; };
 		C21C6BE99116C70D4DA4A4C8 /* Pods_LearniOSAnimationOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearniOSAnimationOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,8 +183,8 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				26C84295232DCD0500D31569 /* JumpStart */,
 				26C8427C232D07B000D31569 /* CustomTransition */,
-				26C84278232C71CE00D31569 /* TwitterLaunchAnimation */,
 				26C8425A2329EE7800D31569 /* QQMessageBubble */,
 				26C842532325F3F900D31569 /* GooeySlideMenu */,
 				26C8424923249E2E00D31569 /* AnimatedCircle */,
@@ -221,13 +227,6 @@
 			name = QQMessageBubble;
 			sourceTree = "<group>";
 		};
-		26C84278232C71CE00D31569 /* TwitterLaunchAnimation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = TwitterLaunchAnimation;
-			sourceTree = "<group>";
-		};
 		26C8427C232D07B000D31569 /* CustomTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +250,17 @@
 				26C84290232D225600D31569 /* ZXPingInvertTransition.m */,
 			);
 			name = CustomTransition;
+			sourceTree = "<group>";
+		};
+		26C84295232DCD0500D31569 /* JumpStart */ = {
+			isa = PBXGroup;
+			children = (
+				26C84296232DCD2D00D31569 /* ZXJumpStartViewController.h */,
+				26C84297232DCD2D00D31569 /* ZXJumpStartViewController.m */,
+				26C84299232DCE3700D31569 /* ZXJumpStartView.h */,
+				26C8429A232DCE3700D31569 /* ZXJumpStartView.m */,
+			);
+			name = JumpStart;
 			sourceTree = "<group>";
 		};
 		83F2E814426069A3E6FC24F1 /* Pods */ = {
@@ -391,10 +401,12 @@
 				26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */,
 				26C842562325F42400D31569 /* ZXGooeySlideMenuViewController.m in Sources */,
 				26C84282232D080100D31569 /* ZXSecondTransitionViewController.m in Sources */,
+				26C84298232DCD2D00D31569 /* ZXJumpStartViewController.m in Sources */,
 				26C8424C23249E8B00D31569 /* ZXAnimatedCircleViewController.m in Sources */,
 				26C8427F232D07EB00D31569 /* ZXMainTransitionViewController.m in Sources */,
 				26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */,
 				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
+				26C8429B232DCE3800D31569 /* ZXJumpStartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
