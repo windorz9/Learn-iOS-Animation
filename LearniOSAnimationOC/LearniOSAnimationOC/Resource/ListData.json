@@ -30,6 +30,10 @@
             {
                 "title" : "JumpStart",
                 "vcName": "ZXJumpStartViewController"
+            },
+            {
+                "title" : "DownLoadAnimation",
+                "vcName": "ZXDownLoadAnimationViewController"
             }
         ]
     }
