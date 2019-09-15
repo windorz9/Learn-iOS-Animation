@@ -10,7 +10,8 @@
 #import "ZXPingInvertTransition.h"
 
 @interface ZXSecondTransitionViewController ()
-
+/** UIPercentDrivenInteractiveTransition */
+@property (nonatomic, strong) UIPercentDrivenInteractiveTransition *percentTransition;
 @end
 
 @implementation ZXSecondTransitionViewController
@@ -27,6 +28,11 @@
     backBtn.frame = CGRectMake(14, 14, 48, 48);
     [backBtn addTarget:self action:@selector(_clickBackBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backBtn];
+
+    // 添加一个侧滑屏幕返回
+    UIScreenEdgePanGestureRecognizer *edgePan = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(_handleEdgePan:)];
+    edgePan.edges = UIRectEdgeLeft;
+    [self.view addGestureRecognizer:edgePan];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -52,8 +58,32 @@
     }
 }
 
+- (id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController {
+    return self.percentTransition;
+}
+
 - (void)_clickBackBtn {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)_handleEdgePan:(UIScreenEdgePanGestureRecognizer *)gesture {
+    // 计算划过的百分比 是否要结束动画
+    CGFloat per = [gesture translationInView:self.view].x / (self.view.bounds.size.width);
+    per = MIN(1.0, MAX(0, per));
+
+    if (gesture.state == UIGestureRecognizerStateBegan) {
+        self.percentTransition = [[UIPercentDrivenInteractiveTransition alloc] init];
+    } else if (gesture.state == UIGestureRecognizerStateChanged) {
+        [self.percentTransition updateInteractiveTransition:per];
+    } else if (gesture.state == UIGestureRecognizerStateEnded || gesture.state == UIGestureRecognizerStateCancelled) {
+        if (per > 0.3) {
+            [self.navigationController popViewControllerAnimated:YES];
+            [self.percentTransition finishInteractiveTransition];
+        } else {
+            [self.percentTransition cancelInteractiveTransition];
+        }
+        self.percentTransition = nil;
+    }
 }
 
 @end
