@@ -34,6 +34,10 @@
             {
                 "title" : "DownLoadAnimation",
                 "vcName": "ZXDownLoadAnimationViewController"
+            },
+            {
+                "title" : "LoadingHud",
+                "vcName": "ZXLoadingHudViewController"
             }
         ]
     }
