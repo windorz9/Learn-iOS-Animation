@@ -15,6 +15,9 @@
 		26500868232E4FC6005888C8 /* ZXDownLoadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500867232E4FC6005888C8 /* ZXDownLoadButton.m */; };
 		2650086C232E765E005888C8 /* ZXLoadingHudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650086B232E765E005888C8 /* ZXLoadingHudViewController.m */; };
 		2650086F232E76DA005888C8 /* ZXLoadingHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650086E232E76DA005888C8 /* ZXLoadingHudView.m */; };
+		26500873232F27F2005888C8 /* ZXInteractiveCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500872232F27F2005888C8 /* ZXInteractiveCardViewController.m */; };
+		26500876232F2876005888C8 /* ZXInteractiveCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500875232F2876005888C8 /* ZXInteractiveCardView.m */; };
+		26500878232F2A8F005888C8 /* contentImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26500877232F2A8F005888C8 /* contentImage.jpg */; };
 		26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8423823235B4C00D31569 /* ZXHomeViewController.m */; };
 		26C8424023235CF600D31569 /* ListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 26C8423F23235CF600D31569 /* ListData.json */; };
 		26C842432324895200D31569 /* ZXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842422324895200D31569 /* ZXSectionModel.m */; };
@@ -53,6 +56,11 @@
 		2650086B232E765E005888C8 /* ZXLoadingHudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLoadingHudViewController.m; sourceTree = "<group>"; };
 		2650086D232E76DA005888C8 /* ZXLoadingHudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXLoadingHudView.h; sourceTree = "<group>"; };
 		2650086E232E76DA005888C8 /* ZXLoadingHudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLoadingHudView.m; sourceTree = "<group>"; };
+		26500871232F27F2005888C8 /* ZXInteractiveCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXInteractiveCardViewController.h; sourceTree = "<group>"; };
+		26500872232F27F2005888C8 /* ZXInteractiveCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXInteractiveCardViewController.m; sourceTree = "<group>"; };
+		26500874232F2876005888C8 /* ZXInteractiveCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXInteractiveCardView.h; sourceTree = "<group>"; };
+		26500875232F2876005888C8 /* ZXInteractiveCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXInteractiveCardView.m; sourceTree = "<group>"; };
+		26500877232F2A8F005888C8 /* contentImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contentImage.jpg; sourceTree = "<group>"; };
 		26C8423723235B4C00D31569 /* ZXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXHomeViewController.h; sourceTree = "<group>"; };
 		26C8423823235B4C00D31569 /* ZXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXHomeViewController.m; sourceTree = "<group>"; };
 		26C8423F23235CF600D31569 /* ListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListData.json; sourceTree = "<group>"; };
@@ -168,6 +176,18 @@
 			name = LoadingHud;
 			sourceTree = "<group>";
 		};
+		26500870232F27DF005888C8 /* InteractiveCard */ = {
+			isa = PBXGroup;
+			children = (
+				26500877232F2A8F005888C8 /* contentImage.jpg */,
+				26500871232F27F2005888C8 /* ZXInteractiveCardViewController.h */,
+				26500872232F27F2005888C8 /* ZXInteractiveCardViewController.m */,
+				26500874232F2876005888C8 /* ZXInteractiveCardView.h */,
+				26500875232F2876005888C8 /* ZXInteractiveCardView.m */,
+			);
+			name = InteractiveCard;
+			sourceTree = "<group>";
+		};
 		26C8423A23235C8100D31569 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +237,7 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				26500870232F27DF005888C8 /* InteractiveCard */,
 				26500869232E763B005888C8 /* LoadingHud */,
 				26500862232DE4EE005888C8 /* DownLoad */,
 				26C84295232DCD0500D31569 /* JumpStart */,
@@ -373,6 +394,7 @@
 				26C8428E232D0E5700D31569 /* page_2.png in Resources */,
 				260A4D90232356E6003FC64F /* Assets.xcassets in Resources */,
 				26C8424023235CF600D31569 /* ListData.json in Resources */,
+				26500878232F2A8F005888C8 /* contentImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +451,10 @@
 				260A4D96232356E6003FC64F /* main.m in Sources */,
 				26C8425D2329EECA00D31569 /* ZXQQMessageBubbleViewController.m in Sources */,
 				26C84260232A1E6D00D31569 /* ZXQQMessageBubbleView.m in Sources */,
+				26500873232F27F2005888C8 /* ZXInteractiveCardViewController.m in Sources */,
 				26C842462324896000D31569 /* ZXRowModel.m in Sources */,
 				2650086F232E76DA005888C8 /* ZXLoadingHudView.m in Sources */,
+				26500876232F2876005888C8 /* ZXInteractiveCardView.m in Sources */,
 				26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */,
 				26C84291232D225600D31569 /* ZXPingInvertTransition.m in Sources */,
 				2650086C232E765E005888C8 /* ZXLoadingHudViewController.m in Sources */,

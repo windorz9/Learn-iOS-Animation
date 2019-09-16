@@ -40,6 +40,15 @@
                 "vcName": "ZXLoadingHudViewController"
             }
         ]
+    },
+    {
+        "title" : "动画中的数学",
+        "subTitles" : [
+            {
+                "title" : "InteractiveCard",
+                "vcName": "ZXInteractiveCardViewController"
+            }
+        ]
     }
 
 ]
