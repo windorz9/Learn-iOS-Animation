@@ -18,6 +18,10 @@
 		26500873232F27F2005888C8 /* ZXInteractiveCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500872232F27F2005888C8 /* ZXInteractiveCardViewController.m */; };
 		26500876232F2876005888C8 /* ZXInteractiveCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500875232F2876005888C8 /* ZXInteractiveCardView.m */; };
 		26500878232F2A8F005888C8 /* contentImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26500877232F2A8F005888C8 /* contentImage.jpg */; };
+		2650087F2330721A005888C8 /* ZXTvOSCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650087E2330721A005888C8 /* ZXTvOSCardViewController.m */; };
+		26500882233075B4005888C8 /* ZXTvOsCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500881233075B4005888C8 /* ZXTvOsCardView.m */; };
+		26500884233076BC005888C8 /* poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26500883233076BC005888C8 /* poster.jpg */; };
+		26500886233076C8005888C8 /* foreground.png in Resources */ = {isa = PBXBuildFile; fileRef = 26500885233076C8005888C8 /* foreground.png */; };
 		26C8423923235B4C00D31569 /* ZXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8423823235B4C00D31569 /* ZXHomeViewController.m */; };
 		26C8424023235CF600D31569 /* ListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 26C8423F23235CF600D31569 /* ListData.json */; };
 		26C842432324895200D31569 /* ZXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C842422324895200D31569 /* ZXSectionModel.m */; };
@@ -61,6 +65,12 @@
 		26500874232F2876005888C8 /* ZXInteractiveCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXInteractiveCardView.h; sourceTree = "<group>"; };
 		26500875232F2876005888C8 /* ZXInteractiveCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXInteractiveCardView.m; sourceTree = "<group>"; };
 		26500877232F2A8F005888C8 /* contentImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contentImage.jpg; sourceTree = "<group>"; };
+		2650087D2330721A005888C8 /* ZXTvOSCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXTvOSCardViewController.h; sourceTree = "<group>"; };
+		2650087E2330721A005888C8 /* ZXTvOSCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXTvOSCardViewController.m; sourceTree = "<group>"; };
+		26500880233075B4005888C8 /* ZXTvOsCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXTvOsCardView.h; sourceTree = "<group>"; };
+		26500881233075B4005888C8 /* ZXTvOsCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXTvOsCardView.m; sourceTree = "<group>"; };
+		26500883233076BC005888C8 /* poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster.jpg; sourceTree = "<group>"; };
+		26500885233076C8005888C8 /* foreground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreground.png; sourceTree = "<group>"; };
 		26C8423723235B4C00D31569 /* ZXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXHomeViewController.h; sourceTree = "<group>"; };
 		26C8423823235B4C00D31569 /* ZXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXHomeViewController.m; sourceTree = "<group>"; };
 		26C8423F23235CF600D31569 /* ListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ListData.json; sourceTree = "<group>"; };
@@ -188,6 +198,19 @@
 			name = InteractiveCard;
 			sourceTree = "<group>";
 		};
+		2650087C233071FA005888C8 /* TVOSCard */ = {
+			isa = PBXGroup;
+			children = (
+				26500885233076C8005888C8 /* foreground.png */,
+				26500883233076BC005888C8 /* poster.jpg */,
+				2650087D2330721A005888C8 /* ZXTvOSCardViewController.h */,
+				2650087E2330721A005888C8 /* ZXTvOSCardViewController.m */,
+				26500880233075B4005888C8 /* ZXTvOsCardView.h */,
+				26500881233075B4005888C8 /* ZXTvOsCardView.m */,
+			);
+			name = TVOSCard;
+			sourceTree = "<group>";
+		};
 		26C8423A23235C8100D31569 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +260,7 @@
 		26C8424823249E0700D31569 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				2650087C233071FA005888C8 /* TVOSCard */,
 				26500870232F27DF005888C8 /* InteractiveCard */,
 				26500869232E763B005888C8 /* LoadingHud */,
 				26500862232DE4EE005888C8 /* DownLoad */,
@@ -392,7 +416,9 @@
 				26C8428C232D0E4E00D31569 /* page_1.png in Resources */,
 				260A4D93232356E6003FC64F /* LaunchScreen.storyboard in Resources */,
 				26C8428E232D0E5700D31569 /* page_2.png in Resources */,
+				26500884233076BC005888C8 /* poster.jpg in Resources */,
 				260A4D90232356E6003FC64F /* Assets.xcassets in Resources */,
+				26500886233076C8005888C8 /* foreground.png in Resources */,
 				26C8424023235CF600D31569 /* ListData.json in Resources */,
 				26500878232F2A8F005888C8 /* contentImage.jpg in Resources */,
 			);
@@ -460,6 +486,7 @@
 				2650086C232E765E005888C8 /* ZXLoadingHudViewController.m in Sources */,
 				26C842592325FC7200D31569 /* ZXGooeySlideMenuView.m in Sources */,
 				260A4D88232356E5003FC64F /* AppDelegate.m in Sources */,
+				2650087F2330721A005888C8 /* ZXTvOSCardViewController.m in Sources */,
 				26C8424F2324A4AC00D31569 /* ZXAnimatedCircleView.m in Sources */,
 				26C842562325F42400D31569 /* ZXGooeySlideMenuViewController.m in Sources */,
 				26C84282232D080100D31569 /* ZXSecondTransitionViewController.m in Sources */,
@@ -468,6 +495,7 @@
 				26C8427F232D07EB00D31569 /* ZXMainTransitionViewController.m in Sources */,
 				26C842522324A5F900D31569 /* ZXAnimatedCircleLayer.m in Sources */,
 				26500865232DE509005888C8 /* ZXDownLoadAnimationViewController.m in Sources */,
+				26500882233075B4005888C8 /* ZXTvOsCardView.m in Sources */,
 				26C842432324895200D31569 /* ZXSectionModel.m in Sources */,
 				26C8429B232DCE3800D31569 /* ZXJumpStartView.m in Sources */,
 				26500868232E4FC6005888C8 /* ZXDownLoadButton.m in Sources */,

@@ -41,7 +41,7 @@
 }
 
 - (void)_setupUI {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 64) style:UITableViewStyleGrouped];
     [self.view addSubview:tableView];
     tableView.delegate = self;
     tableView.dataSource = self;

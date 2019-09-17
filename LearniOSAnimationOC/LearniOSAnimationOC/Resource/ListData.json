@@ -47,6 +47,10 @@
             {
                 "title" : "InteractiveCard",
                 "vcName": "ZXInteractiveCardViewController"
+            },
+            {
+                "title" : "tvOSCard",
+                "vcName": "ZXTvOSCardViewController"
             }
         ]
     }
